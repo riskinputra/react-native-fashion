@@ -1,6 +1,5 @@
 import React, { useRef } from "react";
 import { View, StyleSheet, Dimensions } from "react-native";
-import { ScrollView } from "react-native-gesture-handler";
 import { useValue, onScrollEvent, interpolateColor } from "react-native-redash";
 import Animated, { multiply } from "react-native-reanimated";
 
