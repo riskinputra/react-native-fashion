@@ -1,10 +1,6 @@
 import React, { useRef } from "react";
 import { View, StyleSheet, Dimensions } from "react-native";
-import {
-  useScrollHandler,
-  onScrollEvent,
-  interpolateColor,
-} from "react-native-redash";
+import { useScrollHandler, interpolateColor } from "react-native-redash";
 import Animated, { multiply, divide } from "react-native-reanimated";
 
 import Slide, { SLIDE_HEIGHT, BORDER_RADIUS } from "./Slide";
